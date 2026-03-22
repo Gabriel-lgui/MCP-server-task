@@ -80,7 +80,7 @@ pytest tests.py -v
 
 ## Ferramentas MCP
 
-# `create_user`:
+### `create_user`:
 Cria um novo usuário, gera embedding da descrição e armazena no FAISS.
 
 **Resposta:**
@@ -88,7 +88,7 @@ Cria um novo usuário, gera embedding da descrição e armazena no FAISS.
 { "id": 1 }
 ```
 
-# `search_users`:
+### `search_users`:
 Busca usuários com descrições similares à query.
 
 **Resposta:**
@@ -104,7 +104,7 @@ Busca usuários com descrições similares à query.
 ]
 ```
 
-# `get_user`:
+### `get_user`:
 Busca um usuário pelo ID.
 
 **Resposta (sucesso):**
@@ -116,7 +116,7 @@ Busca um usuário pelo ID.
 { "error": "Usuário id=<id> não encontrado." }
 ```
 
-# `list_users`:
+### `list_users`:
 Lista todos os usuários cadastrados. Não requer parâmetros.
 
 **Resposta:**
